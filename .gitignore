@@ -1,0 +1,15 @@
+# 必须提交的文件（不要忽略这些！）
+# yarn.lock       # 注释掉这行！
+# .gitignore      # 注释掉这行！
+
+# 正常忽略项
+node_modules/
+.DS_Store
+dist/            # 如果不需要提交构建产物
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vscode/
+.idea/
