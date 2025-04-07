@@ -1,0 +1,7 @@
+[build]
+  command = "yarn build"
+  publish = "dist"
+  environment = { NODE_VERSION = "22.x" }  # 与 package.json 的 engines 一致
+
+[build.environment]
+  GO_VERSION = ""  # 显式禁用 Go
