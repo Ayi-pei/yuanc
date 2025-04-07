@@ -61,7 +61,7 @@ export default function App() {
             </button>
 
             <div className="mt-10 text-center text-sm text-gray-500">
-                您的共享码仅用于此次远程协助，我们承诺不记录任何信息。
+                您的共享码仅用于此次远程协助，我们承诺不记录任何信息
             </div>
         </div>
     );
